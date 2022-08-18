@@ -39,7 +39,7 @@ function List({todos , setTodos}) {
 
     return (
       <div>
-        <h1>진행중</h1>
+        <h1>진행중...</h1>
         <div>
           {todos.map((todo)=> {
             if(todo.isDone === false){
@@ -47,7 +47,7 @@ function List({todos , setTodos}) {
             }
           })}
         </div>
-        <h1>완료</h1>
+        <h1>완료🎉</h1>
         <div>
           {todos.map((todo)=> {
             if(todo.isDone === true){

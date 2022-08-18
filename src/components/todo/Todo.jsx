@@ -3,7 +3,7 @@ import './style.css'
 
 function Todo({todo, onDeleteHandler, onCompleteHandler }) {
     return (
-      <div>
+      <div className="todo-container">
         <h2>
           {todo.title}
         </h2>

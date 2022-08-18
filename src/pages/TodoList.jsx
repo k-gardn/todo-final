@@ -11,14 +11,14 @@ function TodoList() {
   const [todos,setTodos] = useState([
     {
       id:1 ,
-      title: "React" , 
-      body: "어렵군요" , 
+      title: "React 입문 주차" , 
+      body: "어렵지만 재밌지만 어렵다." , 
       isDone : false 
     },
     {
       id:2 ,
-      title: "JS" , 
-      body: "마찬가지로 어렵군요" , 
+      title: "자바스크립트" , 
+      body: "마찬가지로 어렵다." , 
       isDone : true 
     }
   ]
