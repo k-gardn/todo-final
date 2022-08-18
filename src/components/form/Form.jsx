@@ -27,8 +27,8 @@ function Form({todos, setTodos}) {
     }
 
     return (
-      <form onSubmit= {onSubmitHandler}  >
-        <div>
+      <form onSubmit= {onSubmitHandler} className="form_container" >
+        <div className="input_container">
           <label>
             제목
           </label>

@@ -1,0 +1,23 @@
+.form_container {
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px;
+
+    border-radius: 10px;
+    background-color: #ddd;
+
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.input_container {
+    width: 50%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
